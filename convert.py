@@ -59,8 +59,7 @@ def convert_folder_pdfs_to_markdown(input_folder, output_folder, force_ocr=True,
 
 
 if __name__ == "__main__":
-    input_folder = "F:\project\PyT\pythonProject\yjs"
-
-    output_folder = "F:\project\PyT\pythonProject\yjs/output"
+    input_folder = "./"
+    output_folder = "./output"
     convert_docx_to_md(input_folder, output_folder)
     convert_folder_pdfs_to_markdown(input_folder, output_folder)
